@@ -1,0 +1,64 @@
+/* pages/courseDetail/index.wxss */
+
+.bg {
+  width: 100vw;
+  height: 100vh;
+  background-color: red;
+}
+
+.section0 {
+  width: 100vw;
+  height: 300px;
+  background-color: yellowgreen;
+}
+
+.section1 {
+  width: 100vw;
+  height: 300px;
+  background-color: black;
+}
+
+.section2 {
+  width: 100vw;
+  height: 100vh;
+  background-color: yellow;
+}
+.section3 {
+  width: 100vw;
+  height: 100vh;
+  background-color: blueviolet;
+}
+.section4 {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+
+.select {
+  height: 50px;
+  width: 100vw;
+  background: aqua;
+  display: flex;
+  justify-content: space-between;
+   /* position: fixed; 
+   top: 0px;   */
+}
+
+.select1 {
+  height: 50px;
+  width: 100vw;
+  background: aqua;
+  position: fixed; 
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  justify-content: space-between;
+  font-size: 32rpx;
+  font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+}

@@ -1,0 +1,21 @@
+<!--pages/courseDetail/index.wxml-->
+
+<view class='container'>
+<scroll-view class='bg' scroll-y="true"  bindscroll='scroll' scroll-into-view="{{toView}}">
+<view id='section1' class='section1'></view>
+ <view class='select'>
+ <button bindtap='tap1'>tab1</button>
+  <button bindtap='tap2'>tab2</button>
+  <button bindtap='tap3'>tab3</button>
+ </view> 
+<view id='section2'  class='section0'></view>
+<view id='section3' class='section2'></view>
+<view id='section4' class='section3'></view>
+<view class='select1' hidden='{{ top }}'>
+ <button bindtap='tap1'>tab1</button>
+  <button bindtap='tap2'>tab2</button>
+  <button bindtap='tap3'>tab3</button>
+</view>
+</scroll-view>
+</view>
+
